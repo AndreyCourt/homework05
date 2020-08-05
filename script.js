@@ -167,7 +167,7 @@ $(document).ready(function () {
     localStorage.setItem("storedPlans", JSON.stringify(planTextArr));
   });
 
-  // function to color save button on change of input
+  // color save button on change of input
   $(document).on("change", "input", function (event) {
     event.preventDefault();
     if (test) {
